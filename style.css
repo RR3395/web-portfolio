@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
 }
 
 h1{
@@ -19,6 +20,70 @@ h1{
 
 }
 
-.half-width img{
+img{
     width: 100%;
 }
+
+.top-banner{
+    background-image: url(White\ Gold\ Simple\ Linktree\ background3.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+section {
+    height: 750px;
+}
+
+.a-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 600;
+
+}
+
+.dream-part{
+    background-image: url(White\ Gold\ Simple\ Linktree\ background5.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.coral-color{
+    color: coral;
+}
+
+.experience{
+    box-shadow: 10px 10px 40px;
+    border-radius: 3px;
+    height: 350px;
+
+}
+
+
+.experience-area{
+    background-image: url(White\ Gold\ Simple\ Linktree\ background6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+}
+
+#front-end{
+ border-left: 7px solid;
+ border-image: linear-gradient(lightsalmon,tomato);
+ border-image-slice: 1;
+ background-color: white;
+}
+
+#new-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+    background-color: white;
+   
+   }
+
+footer p{
+    text-align: center;
+}   
